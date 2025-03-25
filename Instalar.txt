@@ -1,0 +1,7 @@
+npm install @radix-ui/react-dialog @radix-ui/react-select
+npm install @mui/material @emotion/react @emotion/styled
+
+npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+yarn add @radix-ui/react-dialog @radix-ui/react-select
+yarn add @chakra-ui/react @emotion/react @emotion/styled framer-motion

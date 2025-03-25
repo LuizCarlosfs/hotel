@@ -1,0 +1,33 @@
+quarto 301
+    price: 150
+
+quarto 301 - packageId: "natal"
+    price: 200
+
+
+
+Quarto Cama Casal
+    num rooms: 10
+
+Quarto Cama Casal Especial
+    rum rooms: 10
+
+
+Grupo do Centro:
+    104, 105, 106, 107
+
+
+
+
+Quarto Cama Casal
+
+    [ adultos ] [ kids ][ quantidade de quartos ] << SELECIONAR >>
+
+
+    
+
+
+
+    
+
+

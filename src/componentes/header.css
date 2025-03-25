@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribui os elementos */
+    background-color: #007bff; /* Azul vibrante */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .header label {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .header input,
+  .header select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    margin-left: 5px;
+  }
+  
+  .header button {
+    background-color: white;
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .header button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .header .header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+.RelacaoAp{
+    background-color: rgb(211, 120, 173);
+     display:block; 
+     max-width: 580px;
+     margin-left: auto;
+   
+}
+.RelacaoGrupo{
+  background-color: rgb(181, 163, 214);
+  display:block; 
+  max-width: 580px;
+  margin-left: auto;
+}
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .header .header-right {
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 10px;
+    }
+  
+    .header button {
+      width: 100%;
+    }
+  }
+  
